@@ -1,0 +1,1 @@
+import Layout from '../components/Layout'; export default function Dashboard(){return (<Layout><h1 className='text-2xl font-bold mb-2'>Painel</h1><p className='text-slate-600'>Conecte seu token PushinPay, cadastre o grupo do Telegram e acompanhe assinaturas.</p></Layout>);}

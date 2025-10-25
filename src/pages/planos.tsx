@@ -1,0 +1,1 @@
+import Layout from '../components/Layout'; import dynamic from 'next/dynamic'; const CheckoutPix=dynamic(()=>import('../components/CheckoutPix'),{ssr:false}); export default function Planos(){return (<Layout><h1 className='text-2xl font-bold mb-4'>Planos</h1><CheckoutPix/></Layout>);}
